@@ -5,89 +5,139 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- IMPORTANTO CSS -->
+        <!-- Fontes -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./src/css/reset.css">
-        <link rel="stylesheet" href="./src/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- IMPORTANTO CSS -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Projeto BKB</title>
     </head>
 
     <body>
-
         <!-- CABEÇALHO -->
         <header class="cabecalho">
             <!-- CONTAINER PARA CENTRALIZAR ELEMENTOS NO CENTRO -->
             <div class="container">
-                <img  id="logo" src="./src/assets/Projeto BKB Code 1.png" alt="Projeto BKB Code">
-                <img src="./src/assets/Logos 1.png" alt="Logo BKB + Kenzie">
+                    <img src="assets/img/Projeto BKB Code 1.png" alt="Projeto BK Code">
+                    <img id="logo" src="assets/img/Logos 1.png" alt="Logo Kenzie + BK">
             </div>
-            
         </header>
-       
+       <!-- PRINCIPAL -->
         <main>
-
-            <!-- SEÇÃO BANNER -->
             <section class="banner">
-                <img src="./src/assets/banner.png" alt="Banner com hamburgueres">
+                <img src="assets/img/banner.png" alt="Banner com Hamburgueres">
             </section>
 
-            <!-- SEÇÃO PRODUTOS -->
-            <section class="secaoProdutos">
-                
+            <section class="produtos">
                 <div class="container">
-                    <!-- LISTA DE PRODUTOS -->
-                    <ul class="produtosLista"></ul>
-
+                    <ul class="lista__produtos">
+                        <li class="card__produto">
+                            <img src="assets/img/combo_whopper.png" alt="combo whopper">
+                            <h3>Combo Whopper</h3>
+                            <p>R$ 32.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/bk_chicken.png" alt="BK chicken">
+                            <h3>BK Chicken</h3>
+                            <p>R$ 16.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/sorvete.png" alt="Sorvete">
+                            <h3>Sorvete</h3>
+                            <p>R$ 9.80</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/cheddar_duplo.png" alt="Cheddar Duplo">
+                            <h3>Cheddar Duplo</h3>
+                            <p>R$ 13.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/whopper_rodeio.png" alt="Combo Whopper Rodeio">
+                            <h3>Combo Whopper Rodeio</h3>
+                            <p>R$ 38.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/onion_rings.png" alt="Onion Rings">
+                            <h3>Onion Ringso</h3>
+                            <p>R$ 11.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/bk_mix.png" alt="BK Mix">
+                            <h3>BK Mix</h3>
+                            <p>R$ 9.95</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/cheddar.png" alt="Cheddar">
+                            <h3>Cheddar</h3>
+                            <p>R$ 11.90</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/shake.png" alt="shake Brownie">
+                            <h3>Shake Brownie</h3>
+                            <p>R$ 11.35</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                        <li class="card__produto">
+                            <img src="assets/img/mix_oreo.png" alt="Mix Oreo">
+                            <h3>Mix Oreo</h3>
+                            <p>R$ 32.40</p>
+                            <button type="button">Adcionar</button>
+                        </li>
+                    </ul>
                 </div>
-
             </section>
-
         </main>
 
         <!-- RODAPÉ -->
         <footer class="rodape">
-            
-            <!-- SEÇÃO CARRINHO -->
             <section class="carrinho">
-                
-                <!-- CABEÇALHO INFORMAÇÕES DO USUÁRIO -->
-                <header class="infoResumo">
+                <header class="resumo">
                     <div class="container">
-                        <!-- INFORMAÇÕES DO USUÁRIO -->
-                        <div class="infoUsuario">
-                            <h3>Olá Kenzie | Minha sacola</h3>
-                            <p>Retirar no balcão</p>
+                        <div class="detalhes__pedido">
+                            <h4>Olá Kenzie | Minha sacola</h4>
+                            <p>Retirada no balcão</p>
                         </div>
-
-                        <!-- INFORMAÇÕES DE PREÇO TOTAL -->
-                        <p class="infoPreco">Total: R$ 00.00</p>
+                        <div class="price">
+                            <p>Total: de R$ 32.90</p>
+                        </div>
                     </div>
                 </header>
 
                 <div class="container">
-                    <!-- LISTA/RESUMO DE PRODUTOS -->
-                    <div class="resumoPedido">
-
-                        <ul class="listaProdutos"></ul>
-
+                    <div class="resumo__pedido">
+                        <ul class="lista__pedido">
+                            <li class="pedido__item">
+                                <div class="box__infor">
+                                    <img src="assets/img/combo_whopper.png" alt="Combo Whopper">
+                                    <p>Combo Whopper</p>
+                                </div>
+                                <div class="infor__price">
+                                    <p>R$ 32.90</p>
+                                    <button>
+                                        <img src="assets/img/lixo.png" alt="Remover produto">
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-
-                    <!-- BOTẼOS PARA FINALZIAR/CANCELAR O PEDIDO -->
-                    <div class="btnFinalizaPedido">
-                        <button type="button">Finalizar Pedido</button>
-                        <button type="button">Cancelar Pedido</button>
+                    
+                    <div class="btn__pedidos">
+                        <button type="button">Finalizar pedido</button>
+                        <button type="button">Cancelar pedido</button>
                     </div>
-                </div>
-
+                </div>      
             </section>
-
-
         </footer>
-
-        <script src="./src/js/produtos.js"></script>
-        <script src="./src/js/script.js"></script>
     </body>
 
 </html>

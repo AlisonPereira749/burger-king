@@ -43,6 +43,7 @@ Projeto desenvolvido para o evento Projeto Burger Kingministrado pelos instrutor
 - Laranja: #FF8627
 - Cinza escuro: #2D2D2D;
 - Preto: #000000;
+- Borda do card: #F5EBDC;
 
 
 ## Layout
